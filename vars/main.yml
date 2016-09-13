@@ -1,0 +1,16 @@
+---
+# defaults file for packer
+
+# Version to be installed
+packer_version: 0.10.1
+# Base download URL
+packer_base_url: https://releases.hashicorp.com/packer
+# SHA256 from file
+packer_sha256sum: 7d51fc5db19d02bbf32278a8116830fae33a3f9bd4440a58d23ad7c863e92e28
+# Packer architecture
+packer_arch: amd64
+# Download cache
+packer_download_cache: /tmp/packer.zip
+# Path where packer should be installed
+packer_path: /usr/local/bin
+
